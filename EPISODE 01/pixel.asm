@@ -5,7 +5,7 @@ start:
     mov ax, 13h    
     int 10h       
 
-    ; 2. DRAW THE PIXEL
+   
     mov ah, 0Ch     
     mov al, 0Fh     
     mov bh, 00h    
@@ -21,4 +21,5 @@ start:
     mov ax, 03h    
     int 10h
     mov ax, 4C00h   
+
     int 21h
